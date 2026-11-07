@@ -136,7 +136,7 @@ The anonymization preserves business behavior while protecting sensitive company
 Rooster-AI-Forecasting-Platform
 
 ├── portapp.py
-├── Portfolio.py
+├── train_model.py
 ├── Rooster_Dataset.xlsx
 ├── Forecast_Output.xlsx
 ├── Actual_Last_Month_Output.xlsx
@@ -171,7 +171,7 @@ pip install -r requirements.txt
 ## Generate Forecasts
 
 ```bash
-python Portfolio.py
+python train_model.py
 ```
 
 ## Launch Dashboard
